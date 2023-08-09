@@ -457,6 +457,7 @@ textarea.form-control {
 .layer {
   position: absolute;
   z-index: 1;
+
 }
 
 #l1 {
@@ -470,8 +471,9 @@ textarea.form-control {
 }
 
 #l3 {
-  top: -10px;
-  left: 40%;
+  top: -90px;
+  left: 35%;
+  scale: 0.8;
 }
 
 #l4 {
@@ -506,7 +508,8 @@ textarea.form-control {
 
 .layer-bg {
   position: absolute;
-  bottom: 0;
+  /* bottom: 0; */
+  top: 0;
   left: 0;
 }
 
